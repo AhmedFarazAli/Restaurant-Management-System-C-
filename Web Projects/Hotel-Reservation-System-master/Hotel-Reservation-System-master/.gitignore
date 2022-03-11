@@ -1,0 +1,17 @@
+ReservationSystemApp/DataLayer/bin/
+ReservationSystemApp/DataLayer/obj/
+ReservationSystemApp/Services/bin/
+ReservationSystemApp/Services/obj/
+ReservationSystemApp/HotelDatabase/bin/
+ReservationSystemApp/HotelDatabase/obj/
+ReservationSystemApp/DataLayer/.vs/
+ReservationSystemApp/ReservationSystemApp/bin/
+ReservationSystemApp/ReservationSystemApp/obj/
+ReservationSystemApp/ReservationSystemApp/frontend/node_modules/
+ReservationSystemApp/ReservationSystemApp/wwwroot/assets/
+ReservationSystemApp/.vs/
+ReservationSystemApp/HotelDatabase/HotelDatabase.dbmdl
+ReservationSystemApp/HotelDatabase/HotelDatabase.jfm
+ReservationSystemApp/ReservationSystemApp/package-lock.json
+ReservationSystemApp/ReservationSystemApp/frontend/package-lock.json
+ReservationSystemApp/ReservationSystemApp/frontend/yarn.lock

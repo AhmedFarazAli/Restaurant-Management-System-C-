@@ -1,0 +1,384 @@
+.userForm {
+    width: 40%;
+    margin: 85px auto;
+    background-color: #98878f;
+    padding: 20px 105px;
+    border-radius: 10px;
+
+    h3{
+        color: white;
+    }
+}
+
+.formFields{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    .inputBlock{
+        width: 100%;
+        input{
+            height: 40px;
+            box-sizing: border-box;
+            width: 100%;
+            border-radius: 5px;
+            border: 1px solid #d1d1d1;
+            padding: 5px 8px;
+        }
+    }
+
+    .selectField{
+        width: 42%;
+    
+    }
+}
+
+.roomForm{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    .inputBlock{
+        width: 100%;
+        input{
+            height: 40px;
+            box-sizing: border-box;
+            width: 100%;
+            border-radius: 5px;
+            border: 1px solid #d1d1d1;
+            padding: 5px 8px;
+        }
+    }
+
+    .selectField{
+        width: 42%;
+    }
+}
+
+input{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid @border-color;
+}
+
+.roomFilter {
+    margin-top: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+
+    label{
+        font-size: 18px;
+        margin: 20px 0;
+        color: white;
+        font-weight: bold;
+    }
+
+    .datePicker{
+        margin: 20px 0;
+    }
+
+    input{
+        padding: 5px 5px;
+    }
+    .custom-select__control{
+        margin-top: 20px;
+    }
+
+    .datePickerBlock{
+        width: 42%;
+
+        .react-datepicker-wrapper {
+            display: inline-block;
+            width: 100%;
+        }
+
+        .react-datepicker__input-container {
+            position: relative;
+            display: inline-block;
+            width: 93%;
+        }
+
+        .datePicker {
+            margin: 20px 0;
+            width: 100%;
+        }
+    }
+
+    .selectBlock{
+        width: 100%;
+        .css-10nd86i{
+            width: 42%;
+        }
+    }
+}
+
+.resetBtn{
+    color: #634d4d;
+    background: #ffffff;
+    transition: background-color 700ms ease;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 40px 0 20px;
+    &:hover{
+        background-color: @accent-color;  
+        color: white;
+        transition: background-color 700ms ease;
+        cursor: pointer;
+    }
+}
+
+
+.custom-select__value-container{
+    background-color: white;
+}
+
+.custom-select__indicators{
+    background-color: white;
+}
+
+.searchResult{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    margin-top: 50px;
+
+    .hotelImg{
+        width: 45%;
+        overflow: hidden;
+        margin-top: 4px;
+        img{
+            width: 100%;
+        }
+    }
+
+    .hotelInfo{
+        width:50%;
+        h2{
+            margin-top: 0;
+        }
+
+        li{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+
+            &:before{
+                content: '';
+                background-image: url('../images/arrow2.png');
+                width: 20px;
+                height: 16px;
+                display: block;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+
+.editBox{
+    border-top: 2px solid white;
+    margin: 10px 0;
+}
+
+.detailsBtn{
+    align-self: center;
+    background-color: #442f55;
+    text-decoration: none;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 17px;
+    font-size: 13px;
+    color: #cabcbc;
+    transition:  700ms ease;
+    margin-right: 10px;
+    font-weight: bold;
+
+   &:hover{
+        background-color: white;
+        color: #442f55;
+        transition:  700ms ease;
+   }
+
+   &:disabled{
+        color: gray;
+
+        &:hover{
+            background-color: #442f55;
+        }
+        
+    }
+}
+
+.pageBar{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+
+    .pageBarBtn{
+        border: none;
+        background-color: white;
+        color: #45435b;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 3px 5px;
+    }
+
+    .nextBtn{
+        background-color: @accent-color;
+        padding: 10px;
+        border-radius: 50%;
+        &:before{
+            content: '';
+            background-image: url('../images/next.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 15px;
+            height: 15px;
+            display: block;
+        }
+    }
+
+    .prevBtn{
+        background-color: @accent-color;
+        padding: 10px;
+        border-radius: 50%;
+
+        &:before{
+            content: '';
+            background-image: url('../images/prev.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 15px;
+            height: 15px;
+            display:block;
+        }
+    }
+
+    .btnPlaceholder{
+        padding: 10px;
+
+        &:before{
+            content: '';
+            width: 15px;
+            height: 15px;
+            display:block;
+        }
+    }
+}
+
+.userForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .detailsBtn{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill{
+    background-color: #e7d1db;
+}
+
+.selectFieldBlock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+
+    .selectField{
+        align-self: flex-end;
+    }
+}
+
+.fileInput {
+    display: none;
+}
+
+.signUpForm,
+.editForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin: 30px auto;
+    background-color: #98878f;
+    padding: 20px 80px;
+    border-radius: 10px;
+
+    .checkbox{
+        input {
+            height: 20px;
+            width: auto;
+        }
+    }
+
+    form{
+        width: 100%;
+    }
+
+    .inputBlock{
+        width: 100%;
+
+        div{
+            width: 100%;
+        }
+    }
+
+    input{
+        width: 100%;
+        height: 40px;
+    }
+
+    .btnBox{
+        justify-content: space-between;
+    }
+
+    .btnBlock{
+        margin-top: 30px;
+        .notActive{
+            background-color: #806c90;
+        }
+    }
+
+    h3, label{
+        font-size: 18px;
+        margin: 20px 0;
+        color: white;
+        font-weight: bold;
+    }
+
+    .fileLabel{
+        display: block;
+        background-color: #442f55;
+        text-decoration: none;
+        border-radius: 20px;
+        border: none;
+        padding: 10px 17px;
+        font-size: 13px;
+        color: #cabcbc;
+        transition: 700ms ease;
+        margin-right: 10px;
+
+        &:hover{
+            background-color: white;
+            color: #442f55;
+            transition:  700ms ease;
+       }
+    }
+}
+
+.btnBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

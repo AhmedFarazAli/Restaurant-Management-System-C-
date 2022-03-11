@@ -1,0 +1,148 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fdfdfd;
+    overflow-x: hidden;
+}
+
+.heading {
+    font-family: 'Segoe UI';
+    color: #2c3e50;
+}
+
+#main {
+    padding: 1px 15px 1px 25px;
+    margin-top: 30px;
+    font-size: larger;
+    margin-bottom: 23px;
+}
+
+.container {
+    padding: 5px 20px 20px 10px;
+    width: 920px;
+    height: 500px;
+    display: block;
+    margin: auto;
+    margin-bottom: 60px;
+    position: relative;
+    border: 1px solid #cfc9c9;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px rgba(59, 57, 57, 0.1);
+    top: 40px;
+}
+
+.row {
+    padding: 11px;
+}
+
+label {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 40px;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.row input {
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    padding: 8px 11px;
+    width: 320px;
+    margin-left: 40px;
+}
+
+.button input {
+    margin-top: 10px;
+    width: 220px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #7559f1;
+    color: white;
+    font-size: 17px;
+    position: relative;
+    left: 50px;
+    cursor: pointer;
+}
+
+    .button input:hover {
+        background-color: #2445da;
+    }
+
+.mydatagrid {
+    width: 80%;
+    border: solid 1px black;
+    min-width: 80%;
+}
+
+.header {
+    background-color: #06c4c1;
+    font-family: Arial;
+    color: White;
+    border: none 0px transparent;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.rows {
+    background-color: #fff;
+    font-family: Arial;
+    font-size: 13px;
+    color: #000;
+    min-height: 25px;
+    text-align: left;
+    border: none 0px transparent;
+}
+
+    .rows:hover {
+        background-color: #618dff;
+        font-family: Arial;
+        color: #fff;
+        text-align: left;
+    }
+
+.selectedrow {
+    background-color: #82abfe;
+    font-family: Arial;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+}
+
+.mydatagrid a {
+    background-color: Transparent;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .mydatagrid a:hover  {
+        background-color: #000;
+        color: #fff;
+    }
+
+.mydatagrid span  {
+    background-color: #fc9898;
+    color: #000;
+    padding: 5px 5px 5px 5px;
+}
+
+.pager {
+    background-color: #ff5656;
+    font-family: Arial;
+    color: White;
+    height: 30px;
+    text-align: left;
+}
+
+.mydatagrid td {
+    padding: 5px;
+}
+
+.mydatagrid th {
+    padding: 5px;
+}

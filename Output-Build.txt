@@ -1,0 +1,4 @@
+﻿Build started...
+1>------ Build started: Project: WebApplication, Configuration: Debug Any CPU ------
+1>  WebApplication -> C:\Users\ahmed\Desktop\WebApplication\WebApplication\bin\WebApplication.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
